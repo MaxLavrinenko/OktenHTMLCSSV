@@ -1,11 +1,28 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 320px) {
 
     .container_custom{
         max-width: 320px;
-        margin: 0 auto;
     }
 
     .obrezka2{
         display: none;
+    }
+    .content__main{
+        max-width: 320px;
+    }
+    .content__partition{
+        max-width: 320px;
+    }
+    .content__presentation{
+        max-width: 320px;
+    }
+    .content__slider{
+        max-width: 320px;
+    }
+    .content__prewiew{
+        max-width: 320px;
+    }
+    .content__prewiew_item{
+        max-width: 320px;
     }
 }
