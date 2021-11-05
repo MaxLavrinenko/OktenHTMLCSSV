@@ -305,7 +305,7 @@
     line-height: 42px;
     color: #0A1A2C;
 }
-.item_description p {
+.p_sloder_catnom {
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -318,7 +318,7 @@
     justify-content: space-around;
     align-items: end;
 }
-.item_price h3{
+.h3_d{
     font-style: normal;
     font-weight: 500;
     font-size: 37px;
@@ -326,7 +326,7 @@
     color: #005BB9;
 
 }
-.item_price p{
+.p_slider_price{
     margin-left: 15px;
     font-style: normal;
     font-weight: normal;
@@ -705,4 +705,27 @@
     justify-content: flex-end;
     column-gap:55px ;
     margin-top: 27px;
+}
+
+/*MEDIA*/
+.navbar__mobile{
+    display: none;
+}
+.header__center_mobile{
+    display: none;
+}
+#mob_catalog_button{
+    display: none;
+}
+#mob_btn_search{
+    display: none;
+}
+.p_slider_m{
+    display: none;
+}
+.price_m{
+    display: none;
+}
+.cabinet__mobile{
+    display: none;
 }

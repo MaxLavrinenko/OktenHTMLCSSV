@@ -1,0 +1,211 @@
+@media screen and (max-width: 900px) {
+    .container_custom{
+        max-width: 728px;
+        padding: 5px;
+    }
+
+    .header__navbar_right {
+        display: none;
+    }
+
+    .navbar__left_boot {
+        display: none;
+    }
+
+    .navbar__mobile {
+        display: block;
+    }
+
+    .header__center {
+        display: none;
+    }
+
+    .header__center_mobile {
+        display: flex;
+        justify-content: space-between;
+        padding: 13px;
+    }
+
+
+    .header__soc_mobile {
+        display: flex;
+        align-items: center;
+        background: #E1EFD0;
+        border-radius: 2px;
+        height: 18px;
+    }
+    .header__soc_mobile p{
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+        margin: 0 auto;
+        margin-left: 2px;
+    }
+    .header__soc_mobile h6{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #0F2438;
+        margin: 0 auto;
+    }
+    .header__telephone_m{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .header__telephone_m p{
+        font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #0F2438;
+    opacity: 0.7;
+    }
+    #catalog_button{
+        display: none;
+    }
+    #mob_catalog_button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 34px;
+        height: 34px;
+        margin-left: 15px;
+        margin-right: 20px;
+    }
+    .header__cabinet{
+        display: none;
+    }
+    #btn_search{
+        display: none;
+    }
+    #mob_btn_search{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 34px;
+        height: 34px;
+    }
+    .input-group input{
+        width:203px ;
+        height: 34px;
+
+    }
+    .header__search{
+        margin: 0;
+        margin-right: 15px;
+    }
+    .input-group{
+        margin-right: 15px;
+    }
+    .header__bottom{
+        padding-bottom: 0;
+    }
+    .content__slider{
+        padding-top: 20px;
+        padding-left: 3px;
+        margin: 0 auto;
+        width: 290px;
+        height: 195px;
+    }
+    .img_slaider_m{
+        width: 131px;
+        height: 111px;
+    }
+    .p_sloder_catnom{
+       font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+        text-decoration-line: underline;
+        color: #717171;
+    }
+    .p_slider_m{
+        display: block;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #0A1A2C;
+    }
+    .h3_d{
+        display: none;
+    }
+    .price_m{
+        display: block;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 23px;
+        color: #005BB9;
+    }
+    .p_slider_price{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 16px;
+        text-decoration-line: line-through;
+        color: #C2C5DA;
+        margin: 0;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+    .content__presentation{
+        display: block;
+    }
+    .btn_m{
+        margin-top: 5px;
+        width: 124px;
+        height: 34px;
+        padding: 0;
+    }
+    .carousel-inner{
+        margin: 0 auto;
+    }
+    .content__prewiew{
+        flex-direction: row;
+        margin-top: 10px;
+    }
+    .content__prewiew_item{
+        min-width: 294px;
+    }
+    .btn_nm{
+        width: 164px;
+        height: 36px;
+    }
+    .btn_p{
+        padding: 0;
+    }
+    .content__main{
+        position: relative;
+    }
+    .content__partition{
+        margin-top: 50px;
+    }
+    .cabinet__mobile{
+        position: absolute !important;
+        z-index: 9999999 !important;
+        display: flex;
+        justify-content: space-around;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+        padding-top:12px ;
+        padding-bottom: 6px;
+        height: 100px;
+    }
+    .mobile__home,.mobile__favorties,
+    .mobile__cart,.mobile__profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .content__partition_item p{
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 14px;
+    }
+.content__showcase_nav{
+    min-width: 600px;
+}
+}
