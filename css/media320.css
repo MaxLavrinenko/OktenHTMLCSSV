@@ -1,5 +1,7 @@
 @media screen and (max-width: 320px) {
-
+ *{
+     max-width: 320px;
+ }
     .container_custom{
         max-width: 320px;
     }
@@ -25,4 +27,21 @@
     .content__prewiew_item{
         max-width: 320px;
     }
+    .footer__container{
+        max-width: 320px;
+    }
+    .footer__info{
+        max-width: 320px;
+         }
+    .addres_item{
+        max-width: 320px;
+    }
+    .contacts{
+        max-width: 320px;
+    }
+    .subscribe{
+        max-width: 320px;
+    }.footer__soc{
+    max-width: 320px;
+         }
 }
