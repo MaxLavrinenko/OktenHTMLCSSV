@@ -1,0 +1,11 @@
+@media screen and (max-width: 375px) {
+
+    .container_custom{
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .obrezka2{
+        display: none;
+    }
+}
