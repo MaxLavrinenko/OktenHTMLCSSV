@@ -611,3 +611,15 @@
     color: #242424;
     margin-top: 20px;
 }
+
+.footer {
+    background: #0C1A2A;
+    margin-top: 120px;
+}
+
+.footer__container {
+    max-width: 1354px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
