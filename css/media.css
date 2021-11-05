@@ -1,4 +1,4 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 728px) {
     .container_custom{
         max-width: 728px;
         padding: 5px;
@@ -182,6 +182,7 @@
         position: relative;
     }
     .content__partition{
+        max-width: 728px;
         margin-top: 50px;
     }
     .cabinet__mobile{
@@ -248,5 +249,8 @@
     justify-content: center;
     width: 104px;
     height: 34px;
+}
+.obrezka{
+    display: none;
 }
 }
