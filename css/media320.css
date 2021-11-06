@@ -1,6 +1,7 @@
 @media screen and (max-width: 320px) {
  *{
      max-width: 320px;
+     Overflow: scroll;
  }
     .container_custom{
         max-width: 320px;
